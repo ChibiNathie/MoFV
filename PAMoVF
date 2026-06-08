@@ -1,0 +1,259 @@
+/*PA*/
+.WelcomeMPA {
+padding:10px 80px 10px 10px;
+font-family:var(--Mfont);
+font-size:22px;
+background:var(--Gradient1);
+border-radius:10px;
+color:var(--white);
+text-align:right;
+width:750px;
+position:relative;
+left:300px;}
+.RowDecPA {
+display:flex;
+gap:10px;
+height:340px;
+margin-top:10px;}
+.Column1PA {min-width:240px;position:relative;top:-40px;}
+.MarcheLiensPA {padding:10px;
+background:var(--ColorT);
+color:#fff;
+font-family:var(--Mfont);
+font-size:18px;
+text-align:center;
+border-radius:10px;
+letter-spacing:1px;}
+.ListMLPA {
+display:flex;
+gap:10px;
+flex-wrap:wrap;
+justify-content:center;
+margin-top:10px;
+letter-spacing:0px;}
+.ListMLPA p {
+transform: scale(0);
+transition:700ms;
+padding:5px;
+background:var(--BG1);
+margin:0 10px;
+border-radius:10px;
+position:relative;
+top:50px;
+font-size:14px;
+border:1px solid var(--ColorS);
+color:#000;}
+.Case1MLPA, .Case2MLPA, .Case3MLPA, .Case4MLPA {width:105px;
+height:105px;
+background-position:center;
+background-size:cover;
+border-radius:10px;
+border:1px solid var(--white);
+transition:700ms;}
+.Case1MLPA:hover p, .Case2MLPA:hover p, .Case3MLPA:hover p, .Case4MLPA:hover p {transform: scale(1);transition:500ms;}
+.Case1MLPA:hover, .Case2MLPA:hover, .Case3MLPA:hover, .Case4MLPA:hover {border:1px solid var(--ColorS);transition:500ms;}
+.TopSitesPA {margin-top:20px;
+font-family:var(--Mfont);
+font-size:18px;
+text-align:center;}
+.TPNPA {
+box-shadow:inset 0 -8px 0 var(--ColorS);
+margin-bottom:10px;
+text-align:left;
+padding-left:10px;}
+.TopSitesPA img {width:50px;}
+.Row1PA {display:flex;
+gap:10px;
+margin-bottom:10px;}
+.InfosPA {min-width:250px;}
+.InNPA {
+box-shadow:inset 0 -8px 0 var(--ColorS);
+margin-bottom:5px;
+text-align:right;
+padding-right:10px;
+font-family:var(--Mfont);
+font-size:18px;}
+.ContInfoPA {padding:5px;
+height:160px;
+overflow:auto;
+text-align:justify;
+border-radius:10px;
+border-bottom:2px solid var(--ColorS);}
+.IconsPA {
+border-radius:10px;
+background:linear-gradient(45deg, var(--ColorM), var(--ColorS));
+padding:10px;
+display:flex;
+gap:10px;
+min-width:100px;
+flex-wrap:wrap;
+justify-content:center;
+align-content:center;}
+.tooltip {font-size:24px;}
+.tooltip a {color:#fff;}
+.tooltip .tooltiptext {
+visibility:hidden;
+width:120px;
+background-color:var(--ColorT);
+color:#fff;
+text-align:center;
+border-radius:6px;
+padding:5px 0;
+position:absolute;
+margin-top:15px;
+margin-left:-10px;
+font-size:12px;
+position:aboslute;
+z-index:1;
+}
+.tooltip:hover .tooltiptext {visibility:visible;}
+.NewsPA {min-width:268px;}
+.NewsNPA {box-shadow:inset 0 -8px 0 var(--ColorM);
+margin-bottom:5px;
+text-align:right;
+padding-right:10px;
+font-family:var(--Mfont);
+font-size:18px;
+}
+.RowNewsPA {
+padding:5px;
+height:160px;
+overflow:auto;
+text-align:justify;
+border-radius:10px;
+border-bottom:2px solid var(--ColorM);
+}
+.BlocNewsPA {
+display:flex;
+gap:10px;
+justify-content:flex-start;
+margin-bottom:10px;
+}
+.DateNPA1, .DateNPA2 {
+padding:10px;
+font-size:10px;
+text-align:center;
+min-width:50px;
+height:50px;
+}
+.DateNPA1 {background:var(--ColorS);color:#000;}
+.DateNPA2 {background:var(--ColorT);color:#fff;}
+.ContNewPA {
+text-align:justify;
+height:50px;
+overflow:auto;
+font-size:12px;
+}
+.Row2PA {
+display:flex;
+gap:10px;
+}
+.WanNPA {
+box-shadow:inset 0 -8px 0 var(--ColorM);
+margin-bottom:10px;
+text-align:left;
+padding-left:10px;
+font-family var(--Mfont);
+font-size:18px;
+}
+.RowWPA {
+display:flex;
+gap:5px;}
+.RowWPA p {
+background:var(--BG1);
+font-size:10px;
+padding:5px;
+text-align:center;
+position:relative;
+border-radius:5px;
+top:-4px;
+left:6px;
+width:55px;
+transform:scale(0);
+transition:700ms;
+}
+.Wanted1PA, .Wanted2PA, .Wanted3PA, .Wanted4PA, .Wanted5PA {
+width:67px;
+height:106px;
+background-position:center;
+background-size:cover;
+border-radius:5px;
+transition:700ms;
+}
+.Wanted1PA:hover p, .Wanted2PA:hover p, .Wanted3PA:hover p, .Wanted4PA:hover p, .Wanted5PA:hover p {transform: scale(1);transition:500ms;}
+.Wanted1PA:hover, .Wanted2PA:hover, .Wanted3PA:hover, .Wanted4PA:hover, .Wanted5PA:hover {transition:500ms;}
+.EventPA {width:270px;}
+.EvNPA {box-shadow:inset 0 -8px 0 var(--ColorS);
+margin-bottom:10px;
+text-align:left;
+padding-left:10px;
+font-size:18px;
+font-family:var(--Mfont);
+}
+.RowEventPA {
+display:flex;
+gap:10px;
+align-items:center;
+justify-content:center;
+}
+.ImgEPA {
+width:100px;
+height:40px;
+background-position:center;
+background-size:cover;
+border-radius:5px;
+}
+.InfoEPA {text-align:center;font-size:12px;}
+.TopPartPA {margin-top:10px;}
+.TopPaNPA {box-shadow:inset 0 -8px 0 var(--ColorM);
+margin-bottom:10px;
+text-align:left;
+padding-left:10px;
+font-family:var(--Mfont);
+font-size:18px;
+}
+.ListPartPA {text-align:center;}
+.ListPartPA select {width:200px;
+height:25px;
+font-size:10px;
+padding:0px;
+position:relative;
+top:-5px;}
+.ListPartPA input:is([type="submit"], [type="button"], [type="hidden"], [type="reset"]), .button, button {
+width:fit-content;
+height:25px;
+font-size:10px;}
+.ColumnStaffPA {
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:10px;
+}
+.StaffNPA {
+box-shadow:inset 0 -8px 0 var(--ColorS);
+margin-bottom:10px;
+text-align:right;
+padding-right:10px;
+font-family:var(--Mfont);
+font-size:18px;}
+.ColumnStaffPA p {
+background:var(--BG1);
+text-align:center;
+height:89px;
+position:relative;
+top:-12px;
+font-size:12px;
+padding-top:10px;
+transform:scale(0);
+transition:700ms;
+}
+.Staff1PA, .Staff2PA, .Staff3PA {
+background-position:center;
+background-size:cover;
+width:90px;
+height:95px;
+border:3px;
+border-style:solid;
+border-image:linear-gradient(320deg, var(--ColorS), var(--ColorM)) 1 !important;
+}
+.Staff1PA:hover p, .Case2MLPA:hover p, .Staff2PA:hover p, .Staff3PA:hover p {transform:scale(1);transition:500ms;}
