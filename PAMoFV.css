@@ -136,7 +136,7 @@ text-align:center;
 min-width:50px;
 height:50px;
 }
-.DateNPA1 {background:var(--ColorS);color:#000;}
+.DateNPA1 {background:var(--ColorS);color:#fff;}
 .DateNPA2 {background:var(--ColorT);color:#fff;}
 .ContNewPA {
 text-align:justify;
